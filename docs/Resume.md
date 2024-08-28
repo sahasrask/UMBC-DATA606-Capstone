@@ -8,7 +8,9 @@
 **GitHub:** (https://github.com/sahasrask)
 
 ## Summary
-A brief summary of your professional background, skills, and key accomplishments.
+As a graduate student at UMBC, my journey in data science is complemented by a solid foundation in data modeling and database administration. Our team leverages advanced statistical analysis and machine learning to turn complex data into actionable insights.
+
+Previously, as a Software Engineer at LTI, our team developed scalable Java applications, enhancing business growth through innovative full-stack solutions. My dedication to problem-solving and continuous learning drives my pursuit of excellence in both academia and software development.
 
 ## Education
 **Masters in Data Science**  

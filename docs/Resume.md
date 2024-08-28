@@ -1,4 +1,4 @@
-(headshot.jpeg)
+(he  )
 
 # Sahasra Kamatam
 

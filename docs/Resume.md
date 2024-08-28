@@ -1,4 +1,4 @@
-(he  )
+![Headshot](headshot.jpeg)
 
 # Sahasra Kamatam
 

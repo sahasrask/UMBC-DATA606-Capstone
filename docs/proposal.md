@@ -15,7 +15,7 @@ Why does it matter ?
 1. **Cultural Preservation:** The system aids in the preservation of ancient texts by making them more accessible to a global audience, ensuring that valuable cultural heritage and knowledge are not lost due to language barriers.
 2. **Textual Analysis:** It can assist in semantic and grammatical analysis of Sanskrit texts, supporting projects that involve large-scale digital analysis of ancient writings.
 
-* Research Questions :
+Research Questions :
 
 1. How can modern NLP techniques, particularly Transformer-based models, be adapted to accurately capture the complex grammatical structures of Sanskrit in order to improve translation quality into English?
 2. What are the limitations of existing multilingual models when applied to low-resource languages like Sanskrit, and how can fine-tuning or transfer learning be leveraged to enhance translation accuracy?

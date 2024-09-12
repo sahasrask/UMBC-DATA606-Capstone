@@ -15,8 +15,6 @@ Why does it matter ?
 1. **Cultural Preservation:** The system aids in the preservation of ancient texts by making them more accessible to a global audience, ensuring that valuable cultural heritage and knowledge are not lost due to language barriers.
 2. **Textual Analysis:** It can assist in semantic and grammatical analysis of Sanskrit texts, supporting projects that involve large-scale digital analysis of ancient writings.
 
-
-
 * Research Questions :
 
 1. How can modern NLP techniques, particularly Transformer-based models, be adapted to accurately capture the complex grammatical structures of Sanskrit in order to improve translation quality into English?
@@ -55,10 +53,12 @@ Why does it matter ?
 | quiet   | निःशब्दम्   | 
 | ...     | ...     |
 
-  
-  
-### Target/Label in ML Model
-The primary target for the machine learning models in this project is the class. 
-
-### Features/Predictors for ML Models
-Temperature, relative humidity (RH), wind speed (Ws), rainfall (Rain), Fire Weather Index (FWI), FFMC, DMC, DC, ISI, BUI, Region
+### Technologies to be Used
+ - Python for programming and implementation of the system.
+ - Natural Language Toolkit (NLTK) for linguistic processing and language features extraction.
+ - TensorFlow/Keras for developing Machine Learning models, especially for Neural Networks.
+ - Seq2Seq Models for translation tasks.
+ - Attention Mechanisms to improve context handling in translation.
+ - Sanskrit Parser tools and libraries to handle the complexities of Sanskrit grammar.
+ - Django/Flask for developing a user-friendly web-based interface.
+ - Database (e.g., MySQL or MongoDB) to store Sanskrit texts and their corresponding translations.

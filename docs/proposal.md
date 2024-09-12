@@ -8,7 +8,8 @@
 
 ## BACKGROUND
 ### Problem Statement
-Forest Fire Prediction System gives the most accurate predictions of when fire can take place using data-driven techniques and machine learning models.
+The challenge is to develop an accurate and automated Sanskrit-to-English translation system that addresses the complexities of Sanskrit grammar, contextual meaning, and the scarcity of annotated parallel datasets.
+
 Why does it matter ?
 
 1. **Early Warning and Prevention:** By accurately predicting the likelihood of forest fires, these systems enable authorities to take proactive measures to prevent fires from occurring or to mitigate their impact. 
@@ -17,32 +18,31 @@ Why does it matter ?
 
 * Research Questions :
 
-1. How can machine learning algorithms be optimized to improve the accuracy and reliability of forest fire prediction models?
-2. How do different environmental factors, such as weather conditions, vegetation type, and topography, influence the spread and intensity of forest fires?
-3.  What role can remote sensing technologies, such as satellite imagery and unmanned aerial vehicles (UAVs), play in enhancing forest fire prediction and monitoring?
-
-
+1. How can modern NLP techniques, particularly Transformer-based models, be adapted to accurately capture the complex grammatical structures of Sanskrit in order to improve translation quality into English?
+2. What are the limitations of existing multilingual models when applied to low-resource languages like Sanskrit, and how can fine-tuning or transfer learning be leveraged to enhance translation accuracy?
+3. How does the scarcity of parallel Sanskrit-English datasets impact the performance of machine translation models, and what strategies can be employed to mitigate data limitations?
+4. How effective are attention mechanisms and context-handling techniques in disambiguating multiple meanings of Sanskrit words during translation?
+5. What evaluation metrics are best suited for assessing the grammatical and semantic accuracy of Sanskrit-to-English translations, and how can these be applied to optimize the model?
+ 
 
 ## DATA
 
-- **Data sources:** [Algerian Forest Fires from UCI](https://archive.ics.uci.edu/dataset/547/algerian+forest+fires+dataset)
-- **Data size:** 12.9 KB
+- **Data sources:** https://www.kaggle.com/datasets/deveshparmar01/sanskrit2/data
+- **Data size:** 4 MB
 - **Data shape:** 
-  - `Algerian_forest_fires_dataset_UPDATE.csv` - 244 rows, 12 columns
-- **Time period:** The datasets cover a time span of (from 06/01/2012 to 09/30/2012).
-- **What does each row represent?**
-  - The dataset includes 244 instances that regroup a data of two regions of Algeria,namely the Bejaia region located in the northeast of Algeria and the Sidi Bel-abbes region located in the northwest of Algeria.
+  - `dict.xlsx` - 1255 rows, 2 columns
+  - `output_file.xlsx` - 69714 rows, 2 columns
 
 ### Data Dictionary
 
-| day | month | year | Temperature | RH | Ws | Rain | FFMC | DMC | DC | ISI | BUI | FWI | Classes | Region |
-|-----|-------|------|-------------|----|----|------|------|-----|----|-----|-----|-----|---------|--------|
-| 1   | 6     | 2012 | 29          | 57 | 18 | 0.0  | 65.7 | 3.4 | 7.6 | 1.3 | 3.4 | 0.5 | 0       | 1      |
-| 2   | 6     | 2012 | 29          | 61 | 13 | 1.3  | 64.4 | 4.1 | 7.6 | 1.0 | 3.9 | 0.4 | 0       | 1      |
-| 3   | 6     | 2012 | 26          | 82 | 22 | 13.1 | 47.1 | 2.5 | 7.1 | 0.3 | 2.7 | 0.1 | 0       | 1      |
-| 4   | 6     | 2012 | 25          | 89 | 13 | 2.5  | 28.6 | 1.3 | 6.9 | 0.0 | 1.7 | 0.0 | 0       | 1      |
-| 5   | 6     | 2012 | 27          | 77 | 16 | 0.0  | 64.8 | 3.0 | 14.2| 1.2 | 3.9 | 0.5 | 0       | 1      |
-| ... | ...   | ...  | ...         | ...| ...| ...  | ...  | ... | ... | ... | ... | ... | ...     | ...    |
+| Sanskrit | English | Meaning                               |
+|----------|-------- |---------------------------------------|
+| 1        | 6       | now                                   | 
+| 2        | 6       | spoke , began to say , said , replied | 
+| 3        | 6       | being too attached to Her             |
+| 4        | 6       | nonsensical                           |
+| 5        | 6       | irregularly composed                  |
+| ...      | ...     | ..................................... | 
 
   
   

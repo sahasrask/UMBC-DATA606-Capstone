@@ -37,12 +37,22 @@ Why does it matter ?
 
 | Sanskrit | English | Meaning                               |
 |----------|-------- |---------------------------------------|
-| 1        | 6       | now                                   | 
-| 2        | 6       | spoke , began to say , said , replied | 
-| 3        | 6       | being too attached to Her             |
-| 4        | 6       | nonsensical                           |
-| 5        | 6       | irregularly composed                  |
+| अब्       | 6       | now                                   | 
+| अबभसे     | 6       | spoke , began to say , said , replied | 
+| अबद्धह्     | 6       | being too attached to Her             |
+| अबद्धम्     | 6       | nonsensical                           |
+| अबधत     | 6       | irregularly composed                  |
 | ...      | ...     | ..................................... | 
+
+
+| English | Sanskrit |
+|---------|--------  |
+| I       | 6        | 
+| walk    | चर       | 
+| doing   | करोति     | 
+| deep    | गम्भीरम्    | 
+| quiet   | निःशब्दम्   | 
+| ...     | ...     |
 
   
   

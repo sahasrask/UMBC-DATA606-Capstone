@@ -12,8 +12,9 @@ The challenge is to develop an accurate and automated Sanskrit-to-English transl
 
 Why does it matter ?
 
-1. **Early Warning and Prevention:** By accurately predicting the likelihood of forest fires, these systems enable authorities to take proactive measures to prevent fires from occurring or to mitigate their impact. 
-2. **Resource Allocation:** Forest fire prediction systems help in allocating firefighting resources effectively. By identifying areas at high risk of fire, authorities can strategically deploy firefighting crews, equipment, and aircraft to those locations, improving response times and minimizing damage.
+1. **Cultural Preservation:** The system aids in the preservation of ancient texts by making them more accessible to a global audience, ensuring that valuable cultural heritage and knowledge are not lost due to language barriers.
+2. **Textual Analysis:** It can assist in semantic and grammatical analysis of Sanskrit texts, supporting projects that involve large-scale digital analysis of ancient writings.
+
 
 
 * Research Questions :

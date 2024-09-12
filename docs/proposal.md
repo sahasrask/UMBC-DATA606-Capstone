@@ -30,7 +30,7 @@ Research Questions :
 - **Data size:** 4 MB
 - **Data shape:** 
   - `dict.xlsx` - 1255 rows, 2 columns
-  - `output_file.xlsx` - 69714 rows, 2 columns
+  - `output_file.xlsx` - 69714 rows, 3 columns
 
 ### Data Dictionary
 

@@ -34,19 +34,19 @@ Research Questions :
 
 ### Data Dictionary
 
-| Sanskrit | English | Meaning                               |
-|----------|-------- |---------------------------------------|
-| अब्       | 6       | now                                   | 
-| अबभसे     | 6       | spoke , began to say , said , replied | 
-| अबद्धह्     | 6       | being too attached to Her             |
-| अबद्धम्     | 6       | nonsensical                           |
-| अबधत     | 6       | irregularly composed                  |
-| ...      | ...     | ..................................... | 
+| Sanskrit | English    | Meaning                               |
+|----------|--------    |---------------------------------------|
+| अब्       | ab         | now                                   | 
+| अबभसे     | ababhase   | spoke , began to say , said , replied | 
+| अबद्धह्     | abaddhah   | being too attached to Her             |
+| अबद्धम्     | abaddham   | nonsensical                           |
+| अबधत     | abaddhavati| irregularly composed                  |
+| ...      | .........  | ..................................... | 
 
 
 | English | Sanskrit |
 |---------|--------  |
-| I       | 6        | 
+| I       | अहम्      | 
 | walk    | चर       | 
 | doing   | करोति     | 
 | deep    | गम्भीरम्    | 

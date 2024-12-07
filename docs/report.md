@@ -21,12 +21,10 @@ English, on the other hand, has a simpler structure and relies more on word orde
 ## 3. Data 
 
 - The dataset taken from the dataset library: "rahular/itihasa"
-<img src="images/datasetdownload.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 250px;">
-
 - Dataset contains Train and Test Data of Sanskrit to English translated sentences.
 - Train dataset contains 75162 sentences and 1 feature of Sanskrit text and Enlish translation of Sanskrit sentences. 
 - Test dataset contains 24217 sentences and 1 feature of Sanskrit text and Enlish translation of Sanskrit sentences. 
-- dataset is downloaded in the project file. 
+- Dataset is downloaded in the project file. 
 
 ## 4. Data Prepocessing
 

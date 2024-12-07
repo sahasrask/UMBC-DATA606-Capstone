@@ -18,50 +18,47 @@ English, on the other hand, has a simpler structure and relies more on word orde
 -  How effective are attention mechanisms and context-handling techniques in disambiguating multiple meanings of Sanskrit words during translation?
 - What evaluation metrics are best suited for assessing the grammatical and semantic accuracy of Sanskrit-to-English translations, and how can these be applied to optimize the model?
   
-## 3. Data 
+## 2. Data 
 
 - The dataset taken from the dataset library: "rahular/itihasa"
 - Dataset contains Train and Test Data of Sanskrit to English translated sentences.
+- Sanskrit and Enlish translations has its seperate text file like ---------------
 - Train dataset contains 75162 sentences and 1 feature of Sanskrit text and Enlish translation of Sanskrit sentences. 
 - Test dataset contains 24217 sentences and 1 feature of Sanskrit text and Enlish translation of Sanskrit sentences. 
 - Dataset is downloaded in the project file. 
 
-## 4. Data Prepocessing
+## 3. Data Prepocessing
+- Data is downloaded from dataset library: "rahular/itihasa" and extracted the translations from the train dataset.
+- Extracted Sanskrit and English sentences from each entry and stored in different lists.
+- Data Cleaning is done by performing the below steps
+     - Lowercasing all the characters
+     - Removing Quotes
+     - Removing all Special characters
+     - Removing numbers.
+     - Removing Extra Spaces.
+     - Added "START_" and "_END" tokens marking the start and end of target language sequences.
+- Processed English and Sanskrit sentences (or phrases) stored in a lists and extracted unique words from those sentences, and counts the total number of unique words.
+- From the data we got 72422 and 18402 unique words from Sanskrit and English sentences respectively.
+- Created dictionaries to map words to unique indices.
+- Create reverse dictionaries to map indices back to words.
 
-<img src="images/dataset.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 300px;">
+<img src="images/Data Cleaning.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 120px;">
 
-- Data is downloaded in the format of images and its annotations  
-   ex: Vehicle registration plate 622.72 405.75974400000007 798.08 494.079744 
-- Train,Test and valid dataset images and annotations are downloaded, after getting the data we need to create a text file to support for training of YOLOv4.
-- Each dataset has its seperate text file where image locations are mentioned like below
-- Example: Train.txt, Test.txt and Valid.txt
+## 4. Model Training
+- **Encoder-Decoder Long Short-Term Memory Algorithm**
+  - Partition a dataset comprising Sanskrit (san) and English (eng) sentences into training and testing subsets, structure the data into organized DataFrames, and save the resulting datasets for future use.
+  - LSTM algorithm is a data generator for training sequence-to-sequence models, typically used in machine translation tasks.
+  - The model is used to prepare batches of data for the encoder and decoder during training, ensuring that data is processed efficiently in chunks (batches).
+  - Built a sequence-to-sequence (seq2seq) model using the Keras library, suitable for tasks like machine translation or text generation. It consists of an encoder-decoder architecture with LSTM (Long Short-Term Memory) layers for handling sequential data.
 
-<img src="images/txtfile.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 120px;">
+  <img src="images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 200px;">
 
-- To get the locations txt file, you can run textfile.py which is inside notebooks folder.
-- Now get darknet running inside your colab file.
-
-## 5. Model Training using License Custom dataset
-- **Darknet Build and Detection Test:**
-  - Before training the YOLOv4 model, there are some configurations and notes to address. Record the paths of the dataset's train and test sets, the txt file, and the class name, e.g., vehicle registration plate.
-  - Install Darknet to run the YOLOv4 model. Clone the official Darknet repository from AlexeyAB's GitHub.
-  - After downloading, navigate to the Darknet directory. Build the required binary files for the neural network to run using the cmake command inside the Darknet folder.
-  - The cmake command builds the makefiles. It reads the `CMakeLists.txt` file, which contains configuration instructions for the Darknet build process.
-  - The `CMakeLists.txt` should include the following edits:\
-    ```sh
-    %cd darknet
-    !sed -i 's/OPENCV=0/OPENCV=1/' Makefile
-    !sed -i 's/GPU=0/GPU=1/' Makefile
-    !sed -i 's/CUDNN=0/CUDNN=1/' Makefile
-    !sed -i 's/CUDNN_HALF=0/CUDNN_HALF=1/' Makefile
-    ```
-  - After generating the makefiles, download the pre-trained weights for the neural network. These weights are used to predict the initial error in the first layer of the network and to generate the weights for subsequent layers to reduce the error iteratively.
-  - Test the Darknet functionality by running a detection on an image already present in the data folder in Darknet.
-  - Write a helper function to display the image after predicting the objects.
-
-  <img src="images/testprediction.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 200px;">
-
-  - Upon successful detection, modify the Darknet files for the custom license dataset.
+  - The output shows a summary of the model architecture, listing each layer, its type, the shape of the output, the number of parameters (trainable values), and how the layers are connected.
+  - The Input layers receive sequences of unspecified length (indicated by (None, None)).
+  - Embedding layers convert input words into 50-dimensional vectors. One embedding layer handles the source language, and the other handles the target language.
+  - LSTM layers process these embeddings to capture the sequence information and output hidden states and cell states of size 50.
+  - The final Dense layer outputs a probability distribution over 18,403 possible target tokens (words).
+  - The model has about 5.5 million trainable parameters, meaning that the model will learn by adjusting these values during training.
 
 - **Darknet Configuration for Custom License Dataset:**
   - YOLOv4 object detection runs for several classes by default, but it needs to be modified to run for specific classes based on requirements.

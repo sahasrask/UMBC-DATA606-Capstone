@@ -92,10 +92,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
 
 ## 9. References 
 
-1. https://www.mdpi.com/2075-1680/12/5/424
-2. https://roboflow.com/model/yolov4
-3. https://github.com/kiyoshiiriemon/yolov4_darknet
-4. https://blog.51cto.com/u_15067242/3553533
-5. https://arxiv.org/abs/2004.10934 
-6. https://developer.nvidia.com/cuda-toolkit 
-7. https://pjreddie.com/darknet/yolo/
+1. https://www.sciencedirect.com/science/article/pii/S2949719123000225
+2. https://www.researchgate.net/publication/372291162_An_evaluation_of_Google_Translate_for_Sanskrit_to_English_translation_via_sentiment_and_semantic_analysis
+3. https://aclanthology.org/2020.icon-main.30.pdf
+4. https://arxiv.org/abs/2303.07201

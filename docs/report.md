@@ -144,11 +144,11 @@ English, on the other hand, has a simpler structure and relies more on word orde
 
 
 ## 8. Conclusion
-
-- YOLOv4 (You Only Look Once, version 4) model is an advanced and efficient object detection algorithm, particularly well-suited for real-time applications such as license plate detection. 
-- This model strikes an excellent balance between speed and accuracy, making it ideal for scenarios where rapid and reliable detection is crucial. By leveraging its sophisticated architecture, which includes innovations like CSPDarknet53, PANet, and SPP, YOLOv4 achieves high precision in identifying and localizing license plates even under challenging conditions such as varying lighting, angles, and partial occlusions. 
-- The model's adaptability through customizable parameters allows it to be fine-tuned for specific use cases and hardware configurations. 
-- Overall, YOLOv4's capability to deliver robust performance makes it a valuable tool in traffic management, parking systems, and security surveillance, enhancing the automation and efficiency of these applications.
+- Summary: This project explored the challenges and approaches for Sanskrit-to-English translation using Encoder-Decoder LSTM models, highlighting the unique complexities of Sanskrit’s syntax, morphology, and context-dependent meanings.
+- Achievements: Successfully developed a model that translates basic Sanskrit sentences, paving the way for enhanced accessibility of Sanskrit texts in academia and beyond.
+- Challenges and Limitations: Handling complex sentence structures, compounded words, and data scarcity remains a challenge, impacting translation accuracy.
+- Future Potential: With advancements like Transformer models, attention mechanisms, and domain-specific fine-tuning, the model can be improved for better accuracy and wider application.
+- Final Thought: This work contributes to bridging the gap between ancient and modern languages, making Sanskrit's rich cultural and intellectual heritage more accessible in the digital age.
 
 ## 9. References 
 

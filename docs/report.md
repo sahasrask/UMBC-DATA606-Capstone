@@ -68,15 +68,10 @@ docs/Images
     
 ## 6. Results
 - The model was trained over 5 epochs with the Training accuracy, Training loss, Validation accuracy and Validation loss observations
-- The LSTM model generated the accuracy of 63.72%.
-  
-<img src="images/Output.png" alt="Graph" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 450px;">
+- The LSTM model generated the accuracy of 
+   <img src="Output/Plot.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 450px;">
 
-- We will use custom.weights file which is generated after training the model to test the object detection. 
-
-<img src="images/outputcolab.png" alt="output colab" style="display: block; margin-left: auto; margin-right: auto; width: 250px; height:250px;"> 
-
-- Output shows 98 percent accuracy that the license plate is detected.
+- Output shows 64 percent accuracy for translation.
 
 ## 7. Application of the Trained Models
 

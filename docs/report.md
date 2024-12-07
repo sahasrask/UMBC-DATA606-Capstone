@@ -17,19 +17,6 @@ English, on the other hand, has a simpler structure and relies more on word orde
 - How does the scarcity of parallel Sanskrit-English datasets impact the performance of machine translation models, and what strategies can be employed to mitigate data limitations?
 -  How effective are attention mechanisms and context-handling techniques in disambiguating multiple meanings of Sanskrit words during translation?
 - What evaluation metrics are best suited for assessing the grammatical and semantic accuracy of Sanskrit-to-English translations, and how can these be applied to optimize the model?
-
-<img src="images/versions.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 300px;">
-
-## 2. Background
-
-- What is it about?
-  - Automatic License Number Plate recognition is a technology which uses optical character recognition to read vehicle plates. 
-  ANPR systems typically use cameras and specialized software to capture images of vehicles and extract the alphanumeric characters from their license plates.  
-- Why does it matter? 
-  - This technology is commonly used in law enforcement for purposes such as traffic enforcement, vehicle tracking, and security surveillance. ANPR systems can automatically identify vehicles of interest by matching their license plate numbers against databases of vehicles of interest, stolen vehicles, or vehicles with outstanding warrants.
-- What are your research questions?
-  - we can increase the accuracy, speed and adaptability using YOLOv4 algorithm.
-  - We can develop a user friendly UI to utilize the model to detect the plates automatically upon providing a sample data.
   
 ## 3. Data 
 

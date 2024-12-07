@@ -42,7 +42,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
 - Created dictionaries to map words to unique indices.
 - Create reverse dictionaries to map indices back to words.
 
-<img src="Images/Data_Cleaning.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 300px;">
+<img src="Images/Data_Cleaning.png" alt="TopRows" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 300px;">
 
 ## 4. Model Training
 - **Encoder-Decoder Long Short-Term Memory Algorithm**
@@ -51,7 +51,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
   - The model is used to prepare batches of data for the encoder and decoder during training, ensuring that data is processed efficiently in chunks (batches).
   - Built a sequence-to-sequence (seq2seq) model using the Keras library, suitable for tasks like machine translation or text generation. It consists of an encoder-decoder architecture with LSTM (Long Short-Term Memory) layers for handling sequential data.
 
-  <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 200px;">
+  <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800; height: 200px;">
 
   - The output shows a summary of the model architecture, listing each layer, its type, the shape of the output, the number of parameters (trainable values), and how the layers are connected.
   - The Input layers receive sequences of unspecified length (indicated by (None, None)).

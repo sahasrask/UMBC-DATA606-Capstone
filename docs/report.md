@@ -65,62 +65,12 @@ English, on the other hand, has a simpler structure and relies more on word orde
     <img src="Images/Plot.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 350px;">
 docs/Images
   - The plot displays the model's performance over epochs(training vs. validation accuracy) to detect overfitting or underfitting.
-
-
-    1. Custom cfg file
-    2. `coco.data` and `coco.names`
-    3. `train.txt` file and `test.txt` file (optional)
-  - Change the `coco.names` file to include the name of the custom object: vehicle registration plate.
-
-  <img src="images/coconame.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 100px;">
-
-  - Modify `coco.data`, which is used to train the model. Inside `coco.data`, set the locations of `train.txt`, `test.txt`, `coco.names`, the number of classes, and a backup location for weights.
-
-  <img src="images/cocodata.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 100px;">
-
-  - `yolov4-custom.cfg` is the configuration file where the architecture and parameters for training object detection are specified.
-  - The cfg file contains specific sections to be modified for custom object detection:
-    1. Network architecture
-    2. Input dimensions
-    3. Batch size and subdivisions
-    4. Training parameters
-    5. Anchor boxes
-    6. Classes
-    7. Filters
-    8. Augmentation and preprocessing
-  - I suggest setting **batch = 64** and **subdivisions = 16** for optimal results. If you encounter any issues, increase subdivisions to 32.
-
-  Adjust the rest of the cfg file based on the number of classes your detector will be training on.
-
-  **Note:** 
-  I set **max_batches = 6000** and **steps = 4800, 5400**. I changed **classes = 1** in the three YOLO layers and **filters = 18** in the three convolutional layers preceding the YOLO layers.
-
-  **Configuring Your Variables:**
-
-  - **width = 416**
-  - **height = 416**  
-  *(These should be multiples of 32. The standard is 416, but increasing this to values like 608 can sometimes improve results, though it will slow down training.)*
-
-  - **max_batches = (number of classes) * 2000**  
-  *(But no fewer than 6000, so for 1, 2, or 3 classes, max_batches should be 6000. For 5 classes, max_batches would be 10000.)*
-
-  - **steps = (80% of max_batches), (90% of max_batches)**  
-  *(For example, if max_batches = 10000, then steps = 8000, 9000.)*
-
-  - **filters = (number of classes + 5) * 3**  
-  *(So if you are training for one class, filters = 18. For four classes, filters would be 27.)*
-
-  **Optional:** If you experience memory issues or prolonged training times, change **random = 1** to **random = 0** in each of the three YOLO layers in the cfg file. This will speed up training and save memory, though it may slightly reduce model accuracy.
-
-**All files are uploaded inside the [GitHub repo folder docs and notebooks](https://github.com/Hemanth-Akkenapally/UMBC-DATA606-Capstone). Change it according to your project requirements.**
+    
 ## 6. Results
-- Trained model generetes a set of weights like first 1000, 2000, 3000 and best. we will use best weights for testing the images we took in real time. 
-- After training YOLO model, it will generate a graph which shows us the error rate for every iterations which Loss graph and mAP plot in a single graph.
-- Loss graph explains us the loss values over time. If the loss plateaus or increases, it indicates overfitting or need a further tuning of the parameters in cfg file.
-- Our model is good to use since the graph shows less than 0.1% loss.
-- Mean average precision measures the precision of the model in detection the objects across different classes. High mean average precision indicates better performance model.
- 
-<img src="images/Errorvsiterations.png" alt="Graph" style="display: block; margin-left: auto; margin-right: auto; width: 300px; height: 250px;">
+- The model was trained over 5 epochs with the Training accuracy, Training loss, Validation accuracy and Validation loss observations
+- The LSTM model generated the accuracy of 63.72%.
+  
+<img src="images/Output.png" alt="Graph" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 450px;">
 
 - We will use custom.weights file which is generated after training the model to test the object detection. 
 

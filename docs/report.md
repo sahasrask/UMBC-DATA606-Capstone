@@ -51,7 +51,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
   - The model is used to prepare batches of data for the encoder and decoder during training, ensuring that data is processed efficiently in chunks (batches).
   - Built a sequence-to-sequence (seq2seq) model using the Keras library, suitable for tasks like machine translation or text generation. It consists of an encoder-decoder architecture with LSTM (Long Short-Term Memory) layers for handling sequential data.
 
-  <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800; height: 200px;">
+  <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800; height: 450px;">
 
   - The output shows a summary of the model architecture, listing each layer, its type, the shape of the output, the number of parameters (trainable values), and how the layers are connected.
   - The Input layers receive sequences of unspecified length (indicated by (None, None)).
@@ -63,7 +63,6 @@ English, on the other hand, has a simpler structure and relies more on word orde
 - **Plotting Training and Validation:**
   - Saved the trained model's weights to a file named "nmt_model.weights.h5." which allows reloading the weights later without re-training.
     <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 200px;">
-    ![image](https://github.com/sahasrask/UMBC-DATA606-Capstone/docs/Images/Keras_Model.png)
 docs/Images
   - The plot displays the model's performance over epochs(training vs. validation accuracy) to detect overfitting or underfitting.
 

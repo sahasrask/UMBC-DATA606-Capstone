@@ -51,7 +51,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
   - The model is used to prepare batches of data for the encoder and decoder during training, ensuring that data is processed efficiently in chunks (batches).
   - Built a sequence-to-sequence (seq2seq) model using the Keras library, suitable for tasks like machine translation or text generation. It consists of an encoder-decoder architecture with LSTM (Long Short-Term Memory) layers for handling sequential data.
 
-  <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800; height: 450px;">
+  <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 500; height: 250px;">
 
   - The output shows a summary of the model architecture, listing each layer, its type, the shape of the output, the number of parameters (trainable values), and how the layers are connected.
   - The Input layers receive sequences of unspecified length (indicated by (None, None)).
@@ -63,13 +63,13 @@ English, on the other hand, has a simpler structure and relies more on word orde
 - **Plotting Training and Validation:**
   - Saved the trained model's weights to a file named "nmt_model.weights.h5." which allows reloading the weights later without re-training.
     
-    <img src="Images/Plot.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 350px;">
+    <img src="Images/Plot.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: 250px;">
 
   - The plot displays the model's performance over epochs(training vs. validation accuracy) to detect overfitting or underfitting.
     
 ## 6. Results
 - The model was trained over 5 epochs with the Training accuracy, Training loss, Validation accuracy and Validation loss observations
-   <img src="Images/Output.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: 250px;">
+   <img src="Images/Output.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height: 350px;">
 
 - Output shows 64 percent accuracy for translation.
 
@@ -79,7 +79,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
 
 - Streamlit has many benefits, including simple deployment, real-time engagement, connectivity with data science libraries, and ease of use. It also offers choices for altering the arrangement to meet various project specifications.
 
-<img src="Images/app1.png" alt="Web Page" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height:450px;">
+<img src="Images/app1.png" alt="Web Page" style="display: block; margin-left: auto; margin-right: auto; width: 700px; height:350px;">
 
 
 - This is the webpage we developed using streamlit application. We can directly enter the Sanskrit text and click the Translate button then it runs the model in the background and gives us the output of English Translated text.

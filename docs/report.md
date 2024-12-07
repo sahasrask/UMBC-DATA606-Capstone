@@ -12,14 +12,11 @@
 Sanskrit is one of the oldest languages and is known for its precision basically Its words changes based on grammar rules like cases, gender, and number by giving each word a variety of meanings depending on its form. 
 English, on the other hand, has a simpler structure and relies more on word order to convey meaning, this creates a gap in how sentences are understood in each language.
 #### Research Questions
-- What is the correlation between location (latitude, longitude, zip code) and house prices?
-- What are the reasons for spatial variations in prices?
-- How do the number of bedrooms, bathrooms, and square footage influence house prices, and what are the key contributors to these influences?
-- How do the construction grade and property condition impact house prices, and is there an assessment of higher-grade property premiums?
-- How do renovations affect house prices, and is there a correlation between recent renovations and higher property values?
-- Darknet is a deep convolutional neural network (CNN) architecture designed for fast and efficient object detection. It is known for its simplicity and effectiveness in processing visual data, making it suitable for real-time applications like YOLOv4.
-- Darknet is loaded from the following github: https://github.com/AlexeyAB/darknet.
-- performance difference listed in below picture.
+- How can modern NLP techniques, particularly Transformer-based models, be adapted to accurately capture the complex grammatical structures of Sanskrit in order to improve translation quality into English?
+- What are the limitations of existing multilingual models when applied to low-resource languages like Sanskrit, and how can fine-tuning or transfer learning be leveraged to enhance translation accuracy?
+- How does the scarcity of parallel Sanskrit-English datasets impact the performance of machine translation models, and what strategies can be employed to mitigate data limitations?
+-  How effective are attention mechanisms and context-handling techniques in disambiguating multiple meanings of Sanskrit words during translation?
+- What evaluation metrics are best suited for assessing the grammatical and semantic accuracy of Sanskrit-to-English translations, and how can these be applied to optimize the model?
 
 <img src="images/versions.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 300px;">
 

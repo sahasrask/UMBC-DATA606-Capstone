@@ -42,7 +42,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
 - Created dictionaries to map words to unique indices.
 - Create reverse dictionaries to map indices back to words.
 
-<img src="Images/Data_Cleaning.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 120px;">
+<img src="Images/Data_Cleaning.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 300px;">
 
 ## 4. Model Training
 - **Encoder-Decoder Long Short-Term Memory Algorithm**

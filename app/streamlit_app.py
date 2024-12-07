@@ -6,9 +6,9 @@ from tensorflow.keras.models import load_model
 # Loaded the pre-trained model
 model = load_model('nmt_model.weights.h5')
 
-with open('test_data.pkl', 'rb') as f:
+with open('sanskrit_data.pkl', 'rb') as f:
     sanskrit_tokenizer = pickle.load(f)
-with open('train_data.pkl', 'rb') as f:
+with open('eng_data.pkl', 'rb') as f:
     english_tokenizer = pickle.load(f)
 
 # Maximum input length for the translation

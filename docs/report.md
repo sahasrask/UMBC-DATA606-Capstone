@@ -69,7 +69,7 @@ docs/Images
 ## 6. Results
 - The model was trained over 5 epochs with the Training accuracy, Training loss, Validation accuracy and Validation loss observations
 - The LSTM model generated the accuracy of 
-   <img src="Output.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: 250px;">
+   <img src="Images/Output.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: 250px;">
 
 - Output shows 64 percent accuracy for translation.
 
@@ -79,13 +79,10 @@ docs/Images
 
 - Streamlit has many benefits, including simple deployment, real-time engagement, connectivity with data science libraries, and ease of use. It also offers choices for altering the arrangement to meet various project specifications.
 
-<img src="images/streamlitwebpage.png" alt="Web Page" style="display: block; margin-left: auto; margin-right: auto; width: 250px; height:250px;">
+<img src="Images/app1.png" alt="Web Page" style="display: block; margin-left: auto; margin-right: auto; width: 250px; height:250px;">
 
 
-- This is the webpage we developed using streamlit application. We can directly upload an image and run the detection button then it runs the detection in the background colab and gives us the output along with accuracy.
-
-<img src="images/outputstreamlit.png" alt="Outout Streamlit" style="display: block; margin-left: auto; margin-right: auto; width: 250px; height:250px;">
-
+- This is the webpage we developed using streamlit application. We can directly enter the Sanskrit text and click the Translate button then it runs the model in the background and gives us the output of English Translated text.
 
 ## 8. Conclusion
 - Summary: This project explored the challenges and approaches for Sanskrit-to-English translation using Encoder-Decoder LSTM models, highlighting the unique complexities of Sanskrit’s syntax, morphology, and context-dependent meanings.

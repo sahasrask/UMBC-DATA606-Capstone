@@ -69,7 +69,7 @@ docs/Images
 ## 6. Results
 - The model was trained over 5 epochs with the Training accuracy, Training loss, Validation accuracy and Validation loss observations
 - The LSTM model generated the accuracy of 
-   <img src="Output/Plot.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 450px;">
+   <img src="Output.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 600px; height: 250px;">
 
 - Output shows 64 percent accuracy for translation.
 

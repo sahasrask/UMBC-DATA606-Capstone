@@ -60,9 +60,14 @@ English, on the other hand, has a simpler structure and relies more on word orde
   - The final Dense layer outputs a probability distribution over 18,403 possible target tokens (words).
   - The model has about 5.5 million trainable parameters, meaning that the model will learn by adjusting these values during training.
 
-- **Darknet Configuration for Custom License Dataset:**
-  - YOLOv4 object detection runs for several classes by default, but it needs to be modified to run for specific classes based on requirements.
-  - To run YOLO on a custom dataset, make the following modifications inside the Darknet directory:
+- **Plotting Training and Validation:**
+  - Saved the trained model's weights to a file named "nmt_model.weights.h5." which allows reloading the weights later without re-training.
+    <img src="Images/Keras_Model.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 200px;">
+    ![image](https://github.com/sahasrask/UMBC-DATA606-Capstone/docs/Images/Keras_Model.png)
+docs/Images
+  - The plot displays the model's performance over epochs(training vs. validation accuracy) to detect overfitting or underfitting.
+
+
     1. Custom cfg file
     2. `coco.data` and `coco.names`
     3. `train.txt` file and `test.txt` file (optional)

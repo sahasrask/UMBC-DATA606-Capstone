@@ -20,16 +20,13 @@ English, on the other hand, has a simpler structure and relies more on word orde
   
 ## 3. Data 
 
-- Dataset is scrapped from open image dataset: "https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F01jfm_" using OIDv4Toolkit.
-
+- The dataset taken from the dataset library: "rahular/itihasa"
 <img src="images/datasetdownload.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 400px; height: 250px;">
 
-- Dataset contains Train, Validation and Test Images along with annotations.
-- Each image is scrapped with image file and a csv which contains the annotations of location of the plate.
-- Train dataset contains: 1500 images (total 1500 images + 1500 annotated entries in a csv file)
-- Validation dataset contains: 300 images (total 300 images + 300 annotated entries in a csv file)
-- Test dataset contains: 300 images (total 300 images + 300 annotated entries in a csv file)
-- dataset is downloaded inside a folder called OIDv4Toolkit. 
+- Dataset contains Train and Test Data of Sanskrit to English translated sentences.
+- Train dataset contains 75162 sentences and 1 feature of Sanskrit text and Enlish translation of Sanskrit sentences. 
+- Test dataset contains 24217 sentences and 1 feature of Sanskrit text and Enlish translation of Sanskrit sentences. 
+- dataset is downloaded in the project file. 
 
 ## 4. Data Prepocessing
 

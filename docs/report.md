@@ -4,7 +4,7 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Sahasra Kamatam under the guidance of Dr Chaojie (Jay) Wang
 - Author Name: Sahasra Kamatam
 - LinkedIn: [Sahasra Kamatam](https://www.linkedin.com/in/sahasra-kamatam/)
-- GitHub: [Sahasra Kamatam](https://github.com/sahasrask)
+- GitHub: [Sahasra Kamatam](https://github.com/sahasrask/UMBC-DATA606-Capstone)
 - PowerPoint presentation:[Sahasra Kamatam Presentation](https://github.com/sahasrask/UMBC-DATA606-Capstone/blob/main/docs/SanToEng_Presentation.pptx)
 - Youtube Link: [Sahasra Kamatam Youtube](https://www.youtube.com/watch?v=Y_6bJrnkze8)
     

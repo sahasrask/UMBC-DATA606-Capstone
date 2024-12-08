@@ -5,7 +5,7 @@
 - Author Name: Sahasra Kamatam
 - LinkedIn: [Sahasra Kamatam](https://www.linkedin.com/in/sahasra-kamatam/)
 - GitHub: [Sahasra Kamatam](https://github.com/sahasrask)
-- PowerPoint presentation:(https://github.com/sahasrask/UMBC-DATA606-Capstone/docs/SanToEng_Presentation.pptx)
+- PowerPoint presentation:https://github.com/sahasrask/UMBC-DATA606-Capstone/blob/main/docs/SanToEng_Presentation.pptx
 - Youtube Link: 
     
 ## 1. Introduction

@@ -5,8 +5,8 @@
 - Author Name: Sahasra Kamatam
 - LinkedIn: [Sahasra Kamatam](https://www.linkedin.com/in/sahasra-kamatam/)
 - GitHub: [Sahasra Kamatam](https://github.com/sahasrask)
-- PowerPoint presentation:https://github.com/sahasrask/UMBC-DATA606-Capstone/blob/main/docs/SanToEng_Presentation.pptx
-- Youtube Link: 
+- PowerPoint presentation:[Sahasra Kamatam Presentation](https://github.com/sahasrask/UMBC-DATA606-Capstone/blob/main/docs/SanToEng_Presentation.pptx)
+- Youtube Link: [Sahasra Kamatam Youtube](https://www.youtube.com/watch?v=Y_6bJrnkze8)
     
 ## 1. Introduction
 Sanskrit is one of the oldest languages and is known for its precision basically Its words changes based on grammar rules like cases, gender, and number by giving each word a variety of meanings depending on its form. 

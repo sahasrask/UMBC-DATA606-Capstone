@@ -63,7 +63,7 @@ English, on the other hand, has a simpler structure and relies more on word orde
 - **Plotting Training and Validation:**
   - Saved the trained model's weights to a file named "nmt_model.weights.h5." which allows reloading the weights later without re-training.
     
-    <img src="Images/Plot.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: 250px;">
+    <img src="Images/Accuracy.png" alt="yolov4arch" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: 250px;">
 
   - The plot displays the model's performance over epochs(training vs. validation accuracy) to detect overfitting or underfitting.
     
